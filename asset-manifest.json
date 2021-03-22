@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.677f2d26.chunk.css",
+    "main.css": "/test/static/css/main.477a3964.chunk.css",
     "main.js": "/test/static/js/main.5cb4abad.chunk.js",
     "main.js.map": "/test/static/js/main.5cb4abad.chunk.js.map",
     "runtime-main.js": "/test/static/js/runtime-main.9c6acee0.js",
@@ -8,11 +8,11 @@
     "static/js/2.4eac030f.chunk.js": "/test/static/js/2.4eac030f.chunk.js",
     "static/js/2.4eac030f.chunk.js.map": "/test/static/js/2.4eac030f.chunk.js.map",
     "index.html": "/test/index.html",
-    "precache-manifest.7633ed5d62bc44b476661256f708825e.js": "/test/precache-manifest.7633ed5d62bc44b476661256f708825e.js",
+    "precache-manifest.ee1e9369ff20b8b965d93a4494da1264.js": "/test/precache-manifest.ee1e9369ff20b8b965d93a4494da1264.js",
     "service-worker.js": "/test/service-worker.js",
-    "static/css/main.677f2d26.chunk.css.map": "/test/static/css/main.677f2d26.chunk.css.map",
+    "static/css/main.477a3964.chunk.css.map": "/test/static/css/main.477a3964.chunk.css.map",
     "static/js/2.4eac030f.chunk.js.LICENSE": "/test/static/js/2.4eac030f.chunk.js.LICENSE",
-    "static/media/global.scss": "/test/static/media/ready-bg-desktop.cc190afc.jpg",
+    "static/media/global.scss": "/test/static/media/ready-bg-mobile.d480732f.jpg",
     "static/media/enjoyable-place-desktop.jpg": "/test/static/media/enjoyable-place-desktop.98aef7ac.jpg",
     "static/media/family-gathering-desktop.jpg": "/test/static/media/family-gathering-desktop.342ee31b.jpg",
     "static/media/icon-minus.svg": "/test/static/media/icon-minus.6a3e7b3f.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.9c6acee0.js",
     "static/js/2.4eac030f.chunk.js",
-    "static/css/main.677f2d26.chunk.css",
+    "static/css/main.477a3964.chunk.css",
     "static/js/main.5cb4abad.chunk.js"
   ]
 }
