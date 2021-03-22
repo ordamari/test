@@ -1,23 +1,33 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.d52b01c9.chunk.css",
-    "main.js": "/test/static/js/main.ded5840f.chunk.js",
-    "main.js.map": "/test/static/js/main.ded5840f.chunk.js.map",
+    "main.css": "/test/static/css/main.677f2d26.chunk.css",
+    "main.js": "/test/static/js/main.5cb4abad.chunk.js",
+    "main.js.map": "/test/static/js/main.5cb4abad.chunk.js.map",
     "runtime-main.js": "/test/static/js/runtime-main.9c6acee0.js",
     "runtime-main.js.map": "/test/static/js/runtime-main.9c6acee0.js.map",
-    "static/js/2.04558c83.chunk.js": "/test/static/js/2.04558c83.chunk.js",
-    "static/js/2.04558c83.chunk.js.map": "/test/static/js/2.04558c83.chunk.js.map",
+    "static/js/2.4eac030f.chunk.js": "/test/static/js/2.4eac030f.chunk.js",
+    "static/js/2.4eac030f.chunk.js.map": "/test/static/js/2.4eac030f.chunk.js.map",
     "index.html": "/test/index.html",
-    "precache-manifest.41876a62b4aed9f7c1ef7575440e8020.js": "/test/precache-manifest.41876a62b4aed9f7c1ef7575440e8020.js",
+    "precache-manifest.7633ed5d62bc44b476661256f708825e.js": "/test/precache-manifest.7633ed5d62bc44b476661256f708825e.js",
     "service-worker.js": "/test/service-worker.js",
-    "static/css/main.d52b01c9.chunk.css.map": "/test/static/css/main.d52b01c9.chunk.css.map",
-    "static/js/2.04558c83.chunk.js.LICENSE": "/test/static/js/2.04558c83.chunk.js.LICENSE",
-    "static/media/global.scss": "/test/static/media/Montserrat-Regular.ee653992.ttf"
+    "static/css/main.677f2d26.chunk.css.map": "/test/static/css/main.677f2d26.chunk.css.map",
+    "static/js/2.4eac030f.chunk.js.LICENSE": "/test/static/js/2.4eac030f.chunk.js.LICENSE",
+    "static/media/global.scss": "/test/static/media/ready-bg-desktop.cc190afc.jpg",
+    "static/media/enjoyable-place-desktop.jpg": "/test/static/media/enjoyable-place-desktop.98aef7ac.jpg",
+    "static/media/family-gathering-desktop.jpg": "/test/static/media/family-gathering-desktop.342ee31b.jpg",
+    "static/media/icon-minus.svg": "/test/static/media/icon-minus.6a3e7b3f.svg",
+    "static/media/locally-sourced-desktop.jpg": "/test/static/media/locally-sourced-desktop.fe1a680c.jpg",
+    "static/media/logo.svg": "/test/static/media/logo.932ec5bc.svg",
+    "static/media/menu-item1.jpg": "/test/static/media/menu-item1.c271854d.jpg",
+    "static/media/menu-item2.jpg": "/test/static/media/menu-item2.a1a68d47.jpg",
+    "static/media/menu-item3.jpg": "/test/static/media/menu-item3.9c7e1cb0.jpg",
+    "static/media/pattern-curve-top-left.svg": "/test/static/media/pattern-curve-top-left.2465b869.svg",
+    "static/media/pattern-lines.svg": "/test/static/media/pattern-lines.77989ac9.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9c6acee0.js",
-    "static/js/2.04558c83.chunk.js",
-    "static/css/main.d52b01c9.chunk.css",
-    "static/js/main.ded5840f.chunk.js"
+    "static/js/2.4eac030f.chunk.js",
+    "static/css/main.677f2d26.chunk.css",
+    "static/js/main.5cb4abad.chunk.js"
   ]
 }
