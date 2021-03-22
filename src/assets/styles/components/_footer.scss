@@ -1,3 +1,42 @@
 footer {
-    background-color: grey;
+    background-color: $all1;
+    color: white;
+
+    .first{
+        background-image: url(../../images/homepage/ready-bg-desktop.jpg);
+
+        h2{
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            margin: 95px 0;
+        }
+
+        button {
+            text-transform: uppercase;
+            color: $all1;
+            background-color: white;
+            font-size: 14px;
+            font-weight: 400;
+            padding: 24px 56px;
+        }
+    }
+
+    .second{
+
+        margin: 78px 0;
+
+        p{
+            margin-top: 0;
+            margin-bottom: 7px;
+            font-size: 14px;
+        }
+        img{
+            width: 103px;
+        }
+    }
+
+    @media (max-width:$mobile-breakpoint) {
+       display: none;
+}
 }

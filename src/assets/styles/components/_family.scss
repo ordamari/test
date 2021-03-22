@@ -1,0 +1,102 @@
+.family {
+    color: #242B37;
+    padding: 160px 0;
+    background-image: url(../../images/patterns/pattern-curve-top-right.svg);
+    background-repeat: no-repeat;
+    background-position: -300px 0;
+
+    button {
+        text-transform: uppercase;
+        color: $all1;
+        background-color: white;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 24px 56px;
+        margin-bottom: 78px;
+    }
+
+    img {
+        max-width: 540px;
+    }
+
+
+    .text-container {
+        h2 {
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+
+        p.desc {
+            max-width: 445px;
+            margin-top: 0;
+            margin-bottom: 32px;
+            font-size: 18px;
+            font-weight: normal;
+        }
+
+        p {
+            font-weight: 500;
+            margin-top: 0;
+            font-size: 14px;
+            margin-bottom: 12px;
+
+            &:last-child {
+                opacity: .5;
+            }
+        }
+    }
+
+    .container {
+        position: relative;
+
+        .pattern1 {
+            position: absolute;
+            width: 160px;
+            top: -38px;
+            left: -40px;
+        }
+    }
+
+    .pattern2-container {
+        p:last-child {
+            opacity: 1;
+        }
+
+        img {
+            position: absolute;
+            max-width: 95px;
+            height: 1px;
+            top: 430px;
+            left: 532px;
+        }
+    }
+
+    @media (max-width:$mobile-breakpoint) {
+        text-align: center;
+
+        .container {
+            flex-direction: column;
+
+
+
+            .pattern1 {
+                display: none;
+            }
+        }
+
+        .pattern2-container {
+            p:last-child {
+                opacity: 1;
+            }
+
+            img {
+                display: none;
+            }
+        }
+
+        img.main{
+            width: 326px;
+        }
+    }
+}

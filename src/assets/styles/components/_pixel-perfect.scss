@@ -1,0 +1,19 @@
+.pixel-perfect {
+    color: white;
+    background-color: $all1;
+    padding-top: 200px;
+
+    .list-container {
+        margin-top: 48px;
+        margin-bottom: 120px;
+    }
+
+    @media (max-width:$mobile-breakpoint) {
+        .container{
+            flex-direction: column;
+        }
+    }
+
+
+
+}

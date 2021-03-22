@@ -1,0 +1,72 @@
+.featsure-container {
+
+    background-image: url(../../images/patterns/pattern-curve-top-right.svg);
+    background-repeat: no-repeat;
+    background-position: 0 250px;
+    position: relative;
+    color: #242B37;
+
+
+    img.main {
+        max-width: 540px;
+
+        &:first-child {
+            transform: translatey(-70px);
+        }
+
+        &:last-child {
+            transform: translatey(70px);
+        }
+    }
+
+    .pattern1 {
+        position: absolute;
+        bottom: 0;
+        max-width: 895px;
+        right: 0;
+    }
+
+    .pattern2 {
+        position: absolute;
+        bottom: 282px;
+        max-width: 160px;
+        right: 51px;
+        z-index: 3;
+    }
+
+    @media (max-width:$mobile-breakpoint) {
+        text-align: center;
+        .first{
+            flex-direction: column;
+        }
+        img.main {
+            width: 326px;
+        }
+        .second{
+            flex-direction: column-reverse;
+
+            div{
+                margin-top: 48px;
+            }
+
+            img.main {
+        
+               
+        
+                &:last-child {
+                    transform: translatey(0);
+                }
+            }
+
+        }
+
+        .pattern1 {
+           display: none;
+        }
+        
+        .pattern2 {
+            display: none;
+        }
+    }
+
+}

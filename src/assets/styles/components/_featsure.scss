@@ -1,0 +1,29 @@
+.featsure {
+    background-image: url(../../images/patterns/pattern-divide.svg);
+    background-repeat: no-repeat;
+    padding-top: 48px;
+    max-width: 445px;
+    
+    h2{
+        font-size: 42px;
+        font-weight: bold;
+        letter-spacing: -0.5px;
+        margin-bottom: 16px;
+    }
+
+    p{
+        font-size: 18px;
+        max-width: 445px;
+    }
+
+    
+    @media (max-width:$mobile-breakpoint) {
+        background-position: 50% 0;
+        padding-top: 32px;
+        text-align: center;
+
+        p{
+            width: 327px;
+        }
+    }
+}
