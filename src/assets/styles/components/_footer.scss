@@ -2,10 +2,10 @@ footer {
     background-color: $all1;
     color: white;
 
-    .first{
+    .first {
         background-image: url(../../images/homepage/ready-bg-desktop.jpg);
 
-        h2{
+        h2 {
             color: white;
             font-size: 40px;
             font-weight: bold;
@@ -22,21 +22,44 @@ footer {
         }
     }
 
-    .second{
+    .second {
 
         margin: 78px 0;
 
-        p{
+        p {
             margin-top: 0;
             margin-bottom: 7px;
             font-size: 14px;
         }
-        img{
+
+        img {
             width: 103px;
         }
     }
 
     @media (max-width:$mobile-breakpoint) {
-       display: none;
-}
+        .first {
+            background-image: url(../../images/homepage/ready-bg-mobile.jpg);
+            background-repeat: no-repeat;
+
+            button{
+                margin-bottom: 80px;
+            }
+
+            div {
+                flex-direction: column;
+            }
+        }
+
+        .second.flex.align-start{
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                div{
+                    margin-top: 30px;
+                }
+            
+        }
+    }
 }
